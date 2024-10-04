@@ -6,6 +6,8 @@ This is a web exploit though 80 port using python requests module. This vulnerab
 analysis. The firmware was extracted with Bus Pirate v4 with hardware hacking techniques.
 
 ![alt text](image.png)
+![2-buspirateconnection](https://github.com/user-attachments/assets/a88f14ab-96af-41f2-8d37-0ba7587a7249)
+
 
 ## Disclaimer
 
