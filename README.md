@@ -58,6 +58,7 @@ Replace `[attacker-ip]` with the actual IP address of the attacker's machine.
 
 - **BusyBox MIPS Binary**: Make sure that the `busybox-mips` binary includes the Netcat utility.
 - **Reverse Shell**: The reverse shell will connect back to the attacker's machine on the specified port (`1234` in this example).
+- **Tool in action**: You can see the tool in action in this spanish talk: https://www.youtube.com/watch?v=tTSFSMcqfLA&list=PLUNAsr6w2ozLfyxH-SNSaJv6Juxw34NFn
 
 ![alt text](image-1.png)
 
